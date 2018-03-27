@@ -1,6 +1,23 @@
 # NDList
 Helps working with lists of unknown dimensionality
 
+# Loop through the list
+  ```Python
+  for loopIndex, value in NDList.Iterator(testList):
+      print(loopIndex, value)
+      
+  [0, 0, 1] 0
+  [0, 1, 0] 1
+  [0, 1, 1] 2
+  [1, 0, 0] 3
+  [1, 0, 1] 4
+  [1, 1, 0] 5
+  [1, 1, 1] 6
+  [1, 1, 1] 7    
+  ```
+  
+  
+
 # Create a list of specified dimensionality with speciefied rows per dimension
   ```Python 
   NDList.createNDList([1, 2, 2])
