@@ -1,6 +1,13 @@
 # NDList
 Helps working with lists of unknown dimensionality
 
+```Python 
+testList =  [                     
+              [[0, 1], [2, 3]],   
+              [[4, 5], [6, 7]]    
+            ]                     
+```
+
 # Loop through the list
   ```Python
   for loopIndex, value in NDList.Iterator(testList):
@@ -33,12 +40,7 @@ Helps working with lists of unknown dimensionality
 <br/>
 <br/>
 
-```Python 
-testList =  [                     
-              [[0, 1], [2, 3]],   
-              [[4, 5], [6, 7]]    
-            ]                     
-```
+
             
 # Flats out all dimensions to one
   ```Python 
