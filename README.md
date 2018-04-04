@@ -1,5 +1,5 @@
 # NDList
-Helps working with lists of unknown dimensionality
+Helps working with lists of every dimensionality
 
 ```Python 
 testList =  [                     
